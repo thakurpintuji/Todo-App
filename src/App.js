@@ -3,6 +3,9 @@ import "./App.css";
 import TodoForm from "./components/TodoForm";
 
 const App = () => {
+
+  //Using useState here
+  
   const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
   const [editId, setEditId] = useState(0);
